@@ -1,0 +1,11 @@
+# requirements.txt
+# Required libraries for Google Maps integration
+
+requests>=2.25.0
+# For Google Maps API calls
+
+# Optional: For more advanced mapping features
+# folium>=0.12.0
+# For interactive maps
+# googlemaps>=4.0.0
+# Official Google Maps Python client

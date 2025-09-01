@@ -1,0 +1,70 @@
+[
+  {
+    "route_id": "SPLA",
+    "route_description": "Direct Cape Town to Langa",
+    "via": null,
+    "legs": [
+      {
+        "from": "Cape Town",
+        "to": "Langa",
+        "timetable_pdf": "https://www.gabs.co.za/Timetable.aspx (see SPLA entry)",
+        "stops": "Cape Town CBD; Langa Terminus",
+        "weekday_departures": "See PDF"
+      }
+    ],
+    "through_cash_fare": "R206.50 (weekly multi-journey, Sept 2024)",
+    "fare_code": "SPLA",
+    "transfers_allowed": 0,
+    "notes": "Single-leg direct service; update with latest PDF stops/times."
+  },
+  {
+    "route_id": "CILA",
+    "route_description": "Cape Town via Killarney to Langa",
+    "via": "Killarney",
+    "legs": [
+      {
+        "from": "Cape Town",
+        "to": "Killarney",
+        "timetable_pdf": "https://www.gabs.co.za/Pdf/Cpdf/CAPE_TOWN___ATLANTIS_from_20250526_to_99999999_000401.pdf",
+        "stops": "Cape Town; Killarney; Milnerton; N7 Freeway; Avondale; Protea Park; Saxonsea",
+        "weekday_departures": "06:30, 08:30, 09:45, 11:00, 12:30, 13:15(a), 13:15(b), 15:00, 15:15, 15:30(a), 15:30(b), 15:55, 16:30, 16:50, 17:30, 19:15"
+      },
+      {
+        "from": "Killarney",
+        "to": "Langa",
+        "timetable_pdf": "https://www.gabs.co.za/Timetable.aspx (see KILLARNEY-LANGA entry)",
+        "stops": "See Killarney–Langa PDF",
+        "weekday_departures": "See PDF"
+      }
+    ],
+    "through_cash_fare": "R206.50 (weekly multi-journey, Sept 2024)",
+    "fare_code": "CILA",
+    "transfers_allowed": 1,
+    "notes": "Two-leg journey; complete second leg with official PDF."
+  },
+  {
+    "route_id": "HP-LA",
+    "route_description": "Cape Town via Hanover Park to Langa",
+    "via": "Hanover Park",
+    "legs": [
+      {
+        "from": "Cape Town",
+        "to": "Hanover Park",
+        "timetable_pdf": "https://www.gabs.co.za/Timetable.aspx (see CAPE TOWN–HANOVER PARK entry)",
+        "stops": "See CT–Hanover Park PDF",
+        "weekday_departures": "See PDF"
+      },
+      {
+        "from": "Hanover Park",
+        "to": "Langa",
+        "timetable_pdf": "https://www.gabs.co.za/Timetable.aspx (see HANOVER PARK–LANGA entry)",
+        "stops": "See Hanover Park–Langa PDF",
+        "weekday_departures": "See PDF"
+      }
+    ],
+    "through_cash_fare": "R206.50 (weekly multi-journey, Sept 2024)",
+    "fare_code": "HP-LA",
+    "transfers_allowed": 1,
+    "notes": "Less common connection; fill in both legs from PDFs."
+  }
+]
